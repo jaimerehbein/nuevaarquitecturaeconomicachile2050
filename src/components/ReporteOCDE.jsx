@@ -1,6 +1,6 @@
 import React from 'react';
 import { ShieldCheck, WarningCircle, ChartLineUp, GlobeHemisphereWest, Factory, Nut, Wind, Buildings, ProjectorScreenChart, Target, Coins, Fingerprint, FlagBanner } from '@phosphor-icons/react';
-import { useScrollReveal } from '../../hooks/useScrollReveal';
+import { useScrollReveal } from '../hooks/useScrollReveal';
 
 const phases = [
   {
