@@ -103,7 +103,7 @@ flowchart TD
   return (
     <section id="blueprint" className="section reveal" ref={revealRef}>
       <div className="section-header center">
-        <span className="phase-label">FASE 10</span>
+        <span className="phase-label">FASE 13</span>
         <h2 className="font-serif">Blueprint Geoeconómico Final 2050</h2>
         <p>Esta es la matriz metabólica de Chile 2050. Sin embargo, <strong>la economía extractiva y la tecnología son meramente instrumentales (medios).</strong> El fin teleológico absoluto de esta arquitectura es la transformación en un "Estado de Capacidades", donde el crecimiento se mide exclusivamente por la ampliación de las libertades reales, la salud, agencia y factores de conversión positivos de sus ciudadanos.</p>
         <p style={{ marginTop: '1rem', fontSize: '0.95rem', color: 'var(--text-muted)' }}>

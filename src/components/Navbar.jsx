@@ -21,11 +21,10 @@ export default function Navbar() {
                 <span className="font-serif">CHILE <strong>2050</strong></span>
             </div>
             <ul className="nav-links">
-                <li><a href="#diagnostico" onClick={(e) => handleScroll(e, '#diagnostico')}>Fase 1</a></li>
-                <li><a href="#arquitectura" onClick={(e) => handleScroll(e, '#arquitectura')}>Fase 4</a></li>
-                <li><a href="#motores" onClick={(e) => handleScroll(e, '#motores')}>Fase 5</a></li>
-                <li><a href="#escenarios" onClick={(e) => handleScroll(e, '#escenarios')}>Fase 9</a></li>
-                <li><a href="#blueprint" onClick={(e) => handleScroll(e, '#blueprint')}>Fase 10</a></li>
+                <li><a href="#informe-estrategico" onClick={(e) => handleScroll(e, '#informe-estrategico')}>Informe (13 Fases)</a></li>
+                <li><a href="#benchmarks" onClick={(e) => handleScroll(e, '#benchmarks')}>Benchmarks</a></li>
+                <li><a href="#escenarios" onClick={(e) => handleScroll(e, '#escenarios')}>Laboratorio</a></li>
+                <li><a href="#blueprint" onClick={(e) => handleScroll(e, '#blueprint')}>Blueprint 2050</a></li>
             </ul>
         </div>
     </nav>

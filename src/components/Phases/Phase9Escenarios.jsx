@@ -9,11 +9,11 @@ export default function Phase9Escenarios() {
   return (
     <section id="escenarios" className="section reveal" ref={revealRef}>
       <div className="section-header center">
-        <span className="phase-label">FASE 9</span>
-        <h2 className="font-serif">Simulación de Escenarios y Costo de Inacción</h2>
-        <p>El costo de oportunidad moral y financiero de mantener el modelo actual (Status Quo) es inaceptable, proyectando un PIB estancado. Modelamos múltiples escenarios estocásticos, confirmando que solo la ruta del 'Salto al Desarrollo Verde' asegura la convergencia con el ingreso per cápita top de la OCDE (Nivel Australia/Nueva Zelanda).</p>
+        <span className="phase-label">FASE 11</span>
+        <h2 className="font-serif">Simulación Económica y Gestión de Riesgos</h2>
+        <p>El costo de oportunidad de la inacción es inaceptable. Sin embargo, el éxito requiere mitigar la 'Enfermedad Holandesa' (apreciación monetaria destructora de industria) y el estrés fiscal derivado del envejecimiento demográfico (caída del 65% al 61% de la población activa para 2050).</p>
         <p style={{ marginTop: '1rem', fontSize: '0.95rem', color: 'var(--text-muted)' }}>
-          <strong>Políticas Clave:</strong> Test de estrés macroeconómico con precios base del cobre decrecientes.
+          <strong>Variables Críticas:</strong> Vigilancia tecnológica ante la paridad del H2V y sustitutos de baterías de Sodio.
         </p>
       </div>
       
