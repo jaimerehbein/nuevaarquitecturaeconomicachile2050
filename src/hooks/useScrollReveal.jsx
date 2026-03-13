@@ -20,11 +20,20 @@ export function useScrollReveal(options = {}) {
     }, defaultOptions);
 
     const currentRef = ref.current;
+    
+    // Fallback: Si no se dispara el observer en 1s, forzar visibilidad
+    const timeoutId = setTimeout(() => {
+      if (currentRef && !currentRef.classList.contains('active')) {
+        currentRef.classList.add('active');
+      }
+    }, 1000);
+
     if (currentRef) {
       observer.observe(currentRef);
     }
 
     return () => {
+      clearTimeout(timeoutId);
       if (currentRef) {
         observer.unobserve(currentRef);
       }

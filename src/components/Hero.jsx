@@ -1,8 +1,6 @@
 import { useScrollReveal } from '../hooks/useScrollReveal';
 
 export default function Hero() {
-  const revealRef = useScrollReveal();
-
   const handleScroll = (e) => {
     e.preventDefault();
     const target = document.querySelector('#diagnostico');
@@ -15,7 +13,7 @@ export default function Hero() {
   };
 
   return (
-    <header className="hero container reveal" ref={revealRef}>
+    <header className="hero container">
       <div className="hero-badge">
         <span className="badge-dot"></span>
         Documento Estratégico Oficial
