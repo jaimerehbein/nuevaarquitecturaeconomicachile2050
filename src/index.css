@@ -40,7 +40,10 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   position: relative;
+  width: 100%;
+  -webkit-text-size-adjust: 100%;
 }
+
 
 /* Reusing font-serif class as the new Sans-Serif Header class to avoid finding/replacing everywhere */
 .font-serif {
@@ -151,10 +154,12 @@ p {
   top: 0; left: 0; right: 0;
   z-index: 100;
   padding: 16px 0;
+  padding-top: calc(16px + env(safe-area-inset-top));
   background: #ffffff;
   border-bottom: 1px solid var(--border-solid);
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -193,6 +198,8 @@ p {
 /* --- HERO SECTION --- */
 .hero {
   min-height: 80vh;
+  min-height: 80svh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
