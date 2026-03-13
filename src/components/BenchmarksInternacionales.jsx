@@ -1,4 +1,3 @@
-import React from 'react';
 import { Globe, Lightbulb, TrendUp, Database, UsersThree } from '@phosphor-icons/react';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 

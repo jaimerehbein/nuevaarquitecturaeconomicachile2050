@@ -1,4 +1,5 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
 import mermaid from 'mermaid';
 
 export default function MermaidDiagram({ chart, id }) {
@@ -36,3 +37,9 @@ export default function MermaidDiagram({ chart, id }) {
 
   return <div className="mermaid" ref={containerRef} />;
 }
+
+MermaidDiagram.propTypes = {
+  chart: PropTypes.string.isRequired,
+  id: PropTypes.string.isRequired,
+};
+

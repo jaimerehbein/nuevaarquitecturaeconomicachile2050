@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { ChartLineUp, MapPin, Drop, Lightning } from '@phosphor-icons/react';
 
 export default function SimuladorH2V() {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Buildings, GlobeHemisphereWest, Nut, Wind, Plant } from '@phosphor-icons/react';
 import MermaidDiagram from '../MermaidDiagram';
 import { useScrollReveal } from '../../hooks/useScrollReveal';
@@ -105,7 +104,7 @@ flowchart TD
       <div className="section-header center">
         <span className="phase-label">FASE 13</span>
         <h2 className="font-serif">Blueprint Geoeconómico Final 2050</h2>
-        <p>Esta es la matriz metabólica de Chile 2050. Sin embargo, <strong>la economía extractiva y la tecnología son meramente instrumentales (medios).</strong> El fin teleológico absoluto de esta arquitectura es la transformación en un "Estado de Capacidades", donde el crecimiento se mide exclusivamente por la ampliación de las libertades reales, la salud, agencia y factores de conversión positivos de sus ciudadanos.</p>
+        <p>Esta es la matriz metabólica de Chile 2050. Sin embargo, <strong>la economía extractiva y la tecnología son meramente instrumentales (medios).</strong> El fin teleológico absoluto de esta arquitectura es la transformación en un &quot;Estado de Capacidades&quot;, donde el crecimiento se mide exclusivamente por la ampliación de las libertades reales, la salud, agencia y factores de conversión positivos de sus ciudadanos.</p>
         <p style={{ marginTop: '1rem', fontSize: '0.95rem', color: 'var(--text-muted)' }}>
           <strong>Indicador Clave (Norte Magnético):</strong> Índice de Desarrollo Humano Ajustado por Desigualdad (IDH-D) e Índice de Pobreza Multidimensional en lugar del crecimiento simple del PIB.
         </p>
@@ -126,7 +125,7 @@ flowchart TD
                 </div>
                 <h4 style={{ margin: 0, fontSize: '1.2rem', color: '#0f172a' }}>1. Base Geoeconómica Nacional</h4>
             </div>
-            <p style={{ fontSize: '0.95rem' }}>Las ventajas estáticas de Chile. Es el "hardware" natural del país: la insolación récord de Atacama, los vientos magallánicos y el monopolio topográfico sobre reservas críticas (Litio y Cobre). Constituyen el combustible bruto del modelo.</p>
+            <p style={{ fontSize: '0.95rem' }}>Las ventajas estáticas de Chile. Es el &quot;hardware&quot; natural del país: la insolación récord de Atacama, los vientos magallánicos y el monopolio topográfico sobre reservas críticas (Litio y Cobre). Constituyen el combustible bruto del modelo.</p>
           </div>
 
           <div className="card glass" style={{ borderLeft: '4px solid #005AAA' }}>
@@ -146,7 +145,7 @@ flowchart TD
                 </div>
                 <h4 style={{ margin: 0, fontSize: '1.2rem', color: '#007ba8' }}>3. Arquitectura Institucional</h4>
             </div>
-            <p style={{ fontSize: '0.95rem' }}>El "software" del Estado. Leyes e instrumentos que aseguren el flujo de capital: un <em>Fondo Soberano Tecnológico</em> (Regla de Hartwick) blindado contra ciclos políticos, y una <em>Agencia Fast-Track</em> que usa IA para aprobar grandes inversiones verdes en solo 90 días.</p>
+            <p style={{ fontSize: '0.95rem' }}>El &quot;software&quot; del Estado. Leyes e instrumentos que aseguren el flujo de capital: un <em>Fondo Soberano Tecnológico</em> (Regla de Hartwick) blindado contra ciclos políticos, y una <em>Agencia Fast-Track</em> que usa IA para aprobar grandes inversiones verdes en solo 90 días.</p>
           </div>
 
           <div className="card glass" style={{ borderLeft: '4px solid #1e293b' }}>
@@ -156,7 +155,7 @@ flowchart TD
                 </div>
                 <h4 style={{ margin: 0, fontSize: '1.2rem', color: '#0f172a' }}>4. Sistema Global Integrado</h4>
             </div>
-            <p style={{ fontSize: '0.95rem' }}>El tablero geopolítico del cliente ("Friendshoring Dual"). Vendemos energía y química pesada a las fábricas del <strong>Asia-Pacífico</strong>, mientras exportamos procesamiento de datos en la nube y componentes de vehículos eléctricos (bajo la IRA) hacia <strong>Estados Unidos</strong>.</p>
+            <p style={{ fontSize: '0.95rem' }}>El tablero geopolítico del cliente (&quot;Friendshoring Dual&quot;). Vendemos energía y química pesada a las fábricas del <strong>Asia-Pacífico</strong>, mientras exportamos procesamiento de datos en la nube y componentes de vehículos eléctricos (bajo la IRA) hacia <strong>Estados Unidos</strong>.</p>
           </div>
 
         </div>

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Warning, Lightning, RocketLaunch } from '@phosphor-icons/react';
 import { useScrollReveal } from '../../hooks/useScrollReveal';
 import SimuladorH2V from '../Laboratorio/SimuladorH2V';
@@ -11,7 +10,7 @@ export default function Phase9Escenarios() {
       <div className="section-header center">
         <span className="phase-label">FASE 11</span>
         <h2 className="font-serif">Simulación Económica y Gestión de Riesgos</h2>
-        <p>El costo de oportunidad de la inacción es inaceptable. Sin embargo, el éxito requiere mitigar la 'Enfermedad Holandesa' (apreciación monetaria destructora de industria) y el estrés fiscal derivado del envejecimiento demográfico (caída del 65% al 61% de la población activa para 2050).</p>
+        <p>El costo de oportunidad de la inacción es inaceptable. Sin embargo, el éxito requiere mitigar la &apos;Enfermedad Holandesa&apos; (apreciación monetaria destructora de industria) y el estrés fiscal derivado del envejecimiento demográfico (caída del 65% al 61% de la población activa para 2050).</p>
         <p style={{ marginTop: '1rem', fontSize: '0.95rem', color: 'var(--text-muted)' }}>
           <strong>Variables Críticas:</strong> Vigilancia tecnológica ante la paridad del H2V y sustitutos de baterías de Sodio.
         </p>

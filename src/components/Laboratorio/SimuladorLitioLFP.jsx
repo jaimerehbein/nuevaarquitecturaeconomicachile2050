@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { TrendUp, BatteryFull, Export, Factory } from '@phosphor-icons/react';
 
 export default function SimuladorLitioLFP() {
   // Parámetros por defecto de exportación
   const [toneladasCarbonato, setToneladasCarbonato] = useState(100000); // Base: 100,000 Tons LCE
-  const [precioLCE, setPrecioLCE] = useState(15000); // USD/Ton (Promedio histórico estabilizado)
+  const [precioLCE] = useState(15000); // USD/Ton (Promedio histórico estabilizado)
   
   // Porcentaje de retención para industrializar (Estado Emprendedor)
   const [retencionIndustrial, setRetencionIndustrial] = useState(25); // % de la cuota retenida para hacer cátodos
   
   // Multiplicadores de Valor en la Cadena (Estimaciones Geoeconómicas)
   const [precioCatodoLFP, setPrecioCatodoLFP] = useState(40000); // USD/Ton (Cátodo refinado)
-  const [precioBateria, setPrecioBateria] = useState(120000); // USD equivalent per Ton of LCE contained in packs
+  const [precioBateria] = useState(120000); // USD equivalent per Ton of LCE contained in packs
 
   // Resultados Financieros
   const [exportacionBruta, setExportacionBruta] = useState(0);
